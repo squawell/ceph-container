@@ -180,9 +180,7 @@ bootstrap_mon
 bootstrap_osd
 bootstrap_mds
 bootstrap_rgw
-if ! grep -sq "Red Hat Enterprise Linux Server release" /etc/redhat-release; then
-  bootstrap_demo_user
-fi
+bootstrap_demo_user
 bootstrap_rest_api
 bootstrap_nfs
 bootstrap_rbd_mirror
